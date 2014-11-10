@@ -102,9 +102,7 @@ def chunk_read(response, destFile, chunk_size=8192, report_hook=None):
 
 
 def     dldPdf(pdfLink, destFile):
-    #headerlib_server = r'http://ccatg-build2.cisco.com/cirepo/Train/T29L10N_DELOREAN_R2/'
-    #headerlib_server = r'http://ccatg-build2.cisco.com/cirepo/Train/T29L10N_DELOREAN_R2/client-T29L10N_DELOREAN_R2.4259/delivery/headlib-T29L10N_DELOREAN_R2-4259.zip'
-    
+        
     response = urllib2.urlopen(pdfLink)
     chunk_read(response,destFile, report_hook=chunk_report)
 
@@ -135,7 +133,6 @@ if __name__ == '__main__':
     svnusername  = sys.argv[1]
     svnpassword = sys.argv[2]
     """
-    #cmdline = r"E:\my_research\GPCTools\script\train-020P.bat"
     downloadPdf(r'http://www.kids-pages.com/folders/flashcards/')
     #downloadPdf(r'http://www.kids-pages.com/folders/alphabet/')
     #downloadPdf(g_site)
