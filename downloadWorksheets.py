@@ -222,7 +222,7 @@ if __name__ == '__main__':
     #downloadPdf(g_site)
     #write pdf links to file.
     #AppendPdfLinks("c:/test/test.pdf")
-    destDir = "C:\\test\\worksheets\\"
+    destDir = "C:\\test\\worksheets\\"  #todolist: need to check Dir and create it.
     output = open(r"c:\test\pdf_worksheets.txt",'w')
     for url in pdf_links:
         output.write(url)
