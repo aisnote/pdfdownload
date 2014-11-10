@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9b9373b7-d331-49a4-b603-c4dcb0a85645</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>downloadPDF.py</StartupFile>
+    <StartupFile>downloadWorksheets.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="downloadPDF.py" />
+    <Compile Include="downloadWorksheets.py" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>
